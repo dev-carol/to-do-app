@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do App - OOP </title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div id ="main-container">
+        <div id="add-container">
+            <h2>Adicione suas tarefas</h2>
+            <form action="">
+                <input type="text" name="task" id="task" placeholder="Quais suas tarefas para hoje?">
+                <button type="submit" id="add"><i class="fa-light fa-circle-plus">+</i>
+                </button>
+            </form>
+        </div>
+        
+        <div id="tasks-container">
+            <h3>Lista</h3>
+            <div class="task hide">
+                <i class="fa fa-check"></i>
+                <span class="task-title">Título das tarefas</span>
+                <i class="fa fa-trash"></i>
+            </div>
+            <p id="empty-tasks">Não há tarefas cadastradas</p>
+        </div>
+        <figure>
+            <img src="https://i.pinimg.com/originals/19/64/d9/1964d9a599fe9d1415594910997d2787.png" style="width: 150px">
+        
+          </figure>
+    </div>
+    
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
